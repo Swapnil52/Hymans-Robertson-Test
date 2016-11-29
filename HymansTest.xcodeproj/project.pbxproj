@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		323D45CBED72A8176EDE42EC /* Pods_HymansTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A99C3BF448C5E2DCF53B83 /* Pods_HymansTestUITests.framework */; };
+		55130ECC1DED900A00AA6952 /* weather.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 55130ECB1DED900A00AA6952 /* weather.tiff */; };
+		55130ECE1DED901100AA6952 /* forecast.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 55130ECD1DED901100AA6952 /* forecast.tiff */; };
+		55130ED01DED901700AA6952 /* 12h.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 55130ECF1DED901700AA6952 /* 12h.tiff */; };
 		5546E7351DEC890100410058 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5546E7341DEC890100410058 /* AppDelegate.swift */; };
 		5546E7371DEC890100410058 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5546E7361DEC890100410058 /* ViewController.swift */; };
 		5546E73A1DEC890100410058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5546E7381DEC890100410058 /* Main.storyboard */; };
@@ -16,9 +19,6 @@
 		5546E74A1DEC890100410058 /* HymansTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5546E7491DEC890100410058 /* HymansTestTests.swift */; };
 		5546E7551DEC890100410058 /* HymansTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5546E7541DEC890100410058 /* HymansTestUITests.swift */; };
 		558CE9A41DED759C008F8C8A /* weatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558CE9A31DED759C008F8C8A /* weatherCell.swift */; };
-		558CE9A81DED87BB008F8C8A /* forecast.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 558CE9A51DED87BB008F8C8A /* forecast.tiff */; };
-		558CE9A91DED87BB008F8C8A /* 12h.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 558CE9A61DED87BB008F8C8A /* 12h.tiff */; };
-		558CE9AA1DED87BB008F8C8A /* weather.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 558CE9A71DED87BB008F8C8A /* weather.tiff */; };
 		5769B0937BF3EC177DCE82EF /* Pods_HymansTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42DF7E3F05FC067978BD9790 /* Pods_HymansTestTests.framework */; };
 		C563C43182553880D292B7BB /* Pods_HymansTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2500225B64BA2C8F1768435 /* Pods_HymansTest.framework */; };
 /* End PBXBuildFile section */
@@ -43,6 +43,9 @@
 /* Begin PBXFileReference section */
 		300699FDA42594EFE30B6EF8 /* Pods-HymansTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HymansTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HymansTestTests/Pods-HymansTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		42DF7E3F05FC067978BD9790 /* Pods_HymansTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HymansTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55130ECB1DED900A00AA6952 /* weather.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = weather.tiff; sourceTree = "<group>"; };
+		55130ECD1DED901100AA6952 /* forecast.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = forecast.tiff; sourceTree = "<group>"; };
+		55130ECF1DED901700AA6952 /* 12h.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = 12h.tiff; sourceTree = "<group>"; };
 		5546E7311DEC890100410058 /* HymansTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HymansTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5546E7341DEC890100410058 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5546E7361DEC890100410058 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,9 +60,6 @@
 		5546E7541DEC890100410058 /* HymansTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HymansTestUITests.swift; sourceTree = "<group>"; };
 		5546E7561DEC890100410058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		558CE9A31DED759C008F8C8A /* weatherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = weatherCell.swift; sourceTree = "<group>"; };
-		558CE9A51DED87BB008F8C8A /* forecast.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = forecast.tiff; path = ../../../../Documents/forecast.tiff; sourceTree = "<group>"; };
-		558CE9A61DED87BB008F8C8A /* 12h.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = 12h.tiff; path = ../../../../Documents/12h.tiff; sourceTree = "<group>"; };
-		558CE9A71DED87BB008F8C8A /* weather.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = weather.tiff; path = ../../../../Documents/weather.tiff; sourceTree = "<group>"; };
 		61C37B7570CA1E664C8BD1AB /* Pods-HymansTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HymansTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HymansTestTests/Pods-HymansTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		87A99C3BF448C5E2DCF53B83 /* Pods_HymansTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HymansTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9890C9755AE745023785546B /* Pods-HymansTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HymansTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-HymansTest/Pods-HymansTest.release.xcconfig"; sourceTree = "<group>"; };
@@ -146,10 +146,10 @@
 			isa = PBXGroup;
 			children = (
 				5546E7341DEC890100410058 /* AppDelegate.swift */,
-				558CE9A51DED87BB008F8C8A /* forecast.tiff */,
-				558CE9A61DED87BB008F8C8A /* 12h.tiff */,
-				558CE9A71DED87BB008F8C8A /* weather.tiff */,
 				5546E7361DEC890100410058 /* ViewController.swift */,
+				55130ECB1DED900A00AA6952 /* weather.tiff */,
+				55130ECD1DED901100AA6952 /* forecast.tiff */,
+				55130ECF1DED901700AA6952 /* 12h.tiff */,
 				5546E7381DEC890100410058 /* Main.storyboard */,
 				558CE9A31DED759C008F8C8A /* weatherCell.swift */,
 				5546E73B1DEC890100410058 /* Assets.xcassets */,
@@ -298,10 +298,10 @@
 			files = (
 				5546E73F1DEC890100410058 /* LaunchScreen.storyboard in Resources */,
 				5546E73C1DEC890100410058 /* Assets.xcassets in Resources */,
-				558CE9A91DED87BB008F8C8A /* 12h.tiff in Resources */,
-				558CE9AA1DED87BB008F8C8A /* weather.tiff in Resources */,
 				5546E73A1DEC890100410058 /* Main.storyboard in Resources */,
-				558CE9A81DED87BB008F8C8A /* forecast.tiff in Resources */,
+				55130ECC1DED900A00AA6952 /* weather.tiff in Resources */,
+				55130ED01DED901700AA6952 /* 12h.tiff in Resources */,
+				55130ECE1DED901100AA6952 /* forecast.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
