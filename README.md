@@ -17,8 +17,8 @@ A table containing the weather forecast in 3 hour intervals. Shows the time/date
 <img src="https://raw.githubusercontent.com/Swapnil52/Hymans-Robertson-Test/master/HymansTest/forecast.tiff" width=300>
 
 ##Libraries used
--SDWebImage: For asynchronous image downloading
--Charts: For displaying line, bar and pie charts.
+ -SDWebImage: For asynchronous image downloading
+ -Charts: For displaying line, bar and pie charts.
 
 ##Contact Details:
 Swapnil Dhanwal
