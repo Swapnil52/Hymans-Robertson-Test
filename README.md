@@ -1,5 +1,5 @@
 # Hymans-Robertson-Test-
-Hymans Robertson Internship Test Submission
+Hymans Robertson Internship Test Submission. To build, please download the ZIP to your computer and run 'HymansTest.xcworkspace'
 ##Features:
 ###1. Current Weather in Glasgow
 Shows the current weather conditions in Glasgow including the temperature, humidity, pressure, sunrise time and sunset time.
