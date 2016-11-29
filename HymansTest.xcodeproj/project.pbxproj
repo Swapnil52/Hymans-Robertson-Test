@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		323D45CBED72A8176EDE42EC /* Pods_HymansTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A99C3BF448C5E2DCF53B83 /* Pods_HymansTestUITests.framework */; };
 		5546E7351DEC890100410058 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5546E7341DEC890100410058 /* AppDelegate.swift */; };
 		5546E7371DEC890100410058 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5546E7361DEC890100410058 /* ViewController.swift */; };
 		5546E73A1DEC890100410058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5546E7381DEC890100410058 /* Main.storyboard */; };
@@ -14,6 +15,12 @@
 		5546E73F1DEC890100410058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5546E73D1DEC890100410058 /* LaunchScreen.storyboard */; };
 		5546E74A1DEC890100410058 /* HymansTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5546E7491DEC890100410058 /* HymansTestTests.swift */; };
 		5546E7551DEC890100410058 /* HymansTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5546E7541DEC890100410058 /* HymansTestUITests.swift */; };
+		558CE9A41DED759C008F8C8A /* weatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558CE9A31DED759C008F8C8A /* weatherCell.swift */; };
+		558CE9A81DED87BB008F8C8A /* forecast.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 558CE9A51DED87BB008F8C8A /* forecast.tiff */; };
+		558CE9A91DED87BB008F8C8A /* 12h.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 558CE9A61DED87BB008F8C8A /* 12h.tiff */; };
+		558CE9AA1DED87BB008F8C8A /* weather.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 558CE9A71DED87BB008F8C8A /* weather.tiff */; };
+		5769B0937BF3EC177DCE82EF /* Pods_HymansTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42DF7E3F05FC067978BD9790 /* Pods_HymansTestTests.framework */; };
+		C563C43182553880D292B7BB /* Pods_HymansTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2500225B64BA2C8F1768435 /* Pods_HymansTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		300699FDA42594EFE30B6EF8 /* Pods-HymansTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HymansTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HymansTestTests/Pods-HymansTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		42DF7E3F05FC067978BD9790 /* Pods_HymansTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HymansTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5546E7311DEC890100410058 /* HymansTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HymansTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5546E7341DEC890100410058 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5546E7361DEC890100410058 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,17 @@
 		5546E7501DEC890100410058 /* HymansTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HymansTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5546E7541DEC890100410058 /* HymansTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HymansTestUITests.swift; sourceTree = "<group>"; };
 		5546E7561DEC890100410058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		558CE9A31DED759C008F8C8A /* weatherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = weatherCell.swift; sourceTree = "<group>"; };
+		558CE9A51DED87BB008F8C8A /* forecast.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = forecast.tiff; path = ../../../../Documents/forecast.tiff; sourceTree = "<group>"; };
+		558CE9A61DED87BB008F8C8A /* 12h.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = 12h.tiff; path = ../../../../Documents/12h.tiff; sourceTree = "<group>"; };
+		558CE9A71DED87BB008F8C8A /* weather.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = weather.tiff; path = ../../../../Documents/weather.tiff; sourceTree = "<group>"; };
+		61C37B7570CA1E664C8BD1AB /* Pods-HymansTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HymansTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HymansTestTests/Pods-HymansTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		87A99C3BF448C5E2DCF53B83 /* Pods_HymansTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HymansTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9890C9755AE745023785546B /* Pods-HymansTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HymansTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-HymansTest/Pods-HymansTest.release.xcconfig"; sourceTree = "<group>"; };
+		CF2F17708A767B9221BE72C9 /* Pods-HymansTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HymansTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HymansTestUITests/Pods-HymansTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D0139D12C19214B0441545D4 /* Pods-HymansTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HymansTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HymansTest/Pods-HymansTest.debug.xcconfig"; sourceTree = "<group>"; };
+		E2500225B64BA2C8F1768435 /* Pods_HymansTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HymansTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A1D03B7994497A3B2DD87F /* Pods-HymansTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HymansTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HymansTestUITests/Pods-HymansTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C563C43182553880D292B7BB /* Pods_HymansTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5769B0937BF3EC177DCE82EF /* Pods_HymansTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				323D45CBED72A8176EDE42EC /* Pods_HymansTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		208E9DD86E5C97FF1AE2C7A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2500225B64BA2C8F1768435 /* Pods_HymansTest.framework */,
+				42DF7E3F05FC067978BD9790 /* Pods_HymansTestTests.framework */,
+				87A99C3BF448C5E2DCF53B83 /* Pods_HymansTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		491456D6A9817A2B0CDC1EDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0139D12C19214B0441545D4 /* Pods-HymansTest.debug.xcconfig */,
+				9890C9755AE745023785546B /* Pods-HymansTest.release.xcconfig */,
+				300699FDA42594EFE30B6EF8 /* Pods-HymansTestTests.debug.xcconfig */,
+				61C37B7570CA1E664C8BD1AB /* Pods-HymansTestTests.release.xcconfig */,
+				F5A1D03B7994497A3B2DD87F /* Pods-HymansTestUITests.debug.xcconfig */,
+				CF2F17708A767B9221BE72C9 /* Pods-HymansTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5546E7281DEC890100410058 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +127,8 @@
 				5546E7481DEC890100410058 /* HymansTestTests */,
 				5546E7531DEC890100410058 /* HymansTestUITests */,
 				5546E7321DEC890100410058 /* Products */,
+				491456D6A9817A2B0CDC1EDA /* Pods */,
+				208E9DD86E5C97FF1AE2C7A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +146,12 @@
 			isa = PBXGroup;
 			children = (
 				5546E7341DEC890100410058 /* AppDelegate.swift */,
+				558CE9A51DED87BB008F8C8A /* forecast.tiff */,
+				558CE9A61DED87BB008F8C8A /* 12h.tiff */,
+				558CE9A71DED87BB008F8C8A /* weather.tiff */,
 				5546E7361DEC890100410058 /* ViewController.swift */,
 				5546E7381DEC890100410058 /* Main.storyboard */,
+				558CE9A31DED759C008F8C8A /* weatherCell.swift */,
 				5546E73B1DEC890100410058 /* Assets.xcassets */,
 				5546E73D1DEC890100410058 /* LaunchScreen.storyboard */,
 				5546E7401DEC890100410058 /* Info.plist */,
@@ -132,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5546E7591DEC890100410058 /* Build configuration list for PBXNativeTarget "HymansTest" */;
 			buildPhases = (
+				B0D70AF9759E92230B3A6212 /* [CP] Check Pods Manifest.lock */,
 				5546E72D1DEC890100410058 /* Sources */,
 				5546E72E1DEC890100410058 /* Frameworks */,
 				5546E72F1DEC890100410058 /* Resources */,
+				3E7555449912A56540475D9F /* [CP] Embed Pods Frameworks */,
+				DF892A7ED6F8592280B0EEB0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5546E75C1DEC890100410058 /* Build configuration list for PBXNativeTarget "HymansTestTests" */;
 			buildPhases = (
+				C8EDDCE107325F69F3A3C5E8 /* [CP] Check Pods Manifest.lock */,
 				5546E7411DEC890100410058 /* Sources */,
 				5546E7421DEC890100410058 /* Frameworks */,
 				5546E7431DEC890100410058 /* Resources */,
+				A1A054CA36FE8993EEDEE2B2 /* [CP] Embed Pods Frameworks */,
+				2DFF5110A93E6E123D63D69F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5546E75F1DEC890100410058 /* Build configuration list for PBXNativeTarget "HymansTestUITests" */;
 			buildPhases = (
+				372357E1E0FF86C8796CF9B6 /* [CP] Check Pods Manifest.lock */,
 				5546E74C1DEC890100410058 /* Sources */,
 				5546E74D1DEC890100410058 /* Frameworks */,
 				5546E74E1DEC890100410058 /* Resources */,
+				02A0192DC11944150D9C4FAA /* [CP] Embed Pods Frameworks */,
+				7BB9609C9A40F1F503245334 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,7 +298,10 @@
 			files = (
 				5546E73F1DEC890100410058 /* LaunchScreen.storyboard in Resources */,
 				5546E73C1DEC890100410058 /* Assets.xcassets in Resources */,
+				558CE9A91DED87BB008F8C8A /* 12h.tiff in Resources */,
+				558CE9AA1DED87BB008F8C8A /* weather.tiff in Resources */,
 				5546E73A1DEC890100410058 /* Main.storyboard in Resources */,
+				558CE9A81DED87BB008F8C8A /* forecast.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,11 +321,150 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02A0192DC11944150D9C4FAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HymansTestUITests/Pods-HymansTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DFF5110A93E6E123D63D69F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HymansTestTests/Pods-HymansTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		372357E1E0FF86C8796CF9B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3E7555449912A56540475D9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HymansTest/Pods-HymansTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BB9609C9A40F1F503245334 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HymansTestUITests/Pods-HymansTestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1A054CA36FE8993EEDEE2B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HymansTestTests/Pods-HymansTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0D70AF9759E92230B3A6212 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C8EDDCE107325F69F3A3C5E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DF892A7ED6F8592280B0EEB0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HymansTest/Pods-HymansTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5546E72D1DEC890100410058 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				558CE9A41DED759C008F8C8A /* weatherCell.swift in Sources */,
 				5546E7371DEC890100410058 /* ViewController.swift in Sources */,
 				5546E7351DEC890100410058 /* AppDelegate.swift in Sources */,
 			);
@@ -336,6 +539,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -386,6 +590,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -413,7 +618,9 @@
 		};
 		5546E75A1DEC890100410058 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0139D12C19214B0441545D4 /* Pods-HymansTest.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3A9TH8N8KH;
 				INFOPLIST_FILE = HymansTest/Info.plist;
@@ -426,7 +633,9 @@
 		};
 		5546E75B1DEC890100410058 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9890C9755AE745023785546B /* Pods-HymansTest.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3A9TH8N8KH;
 				INFOPLIST_FILE = HymansTest/Info.plist;
@@ -439,6 +648,7 @@
 		};
 		5546E75D1DEC890100410058 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 300699FDA42594EFE30B6EF8 /* Pods-HymansTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +664,7 @@
 		};
 		5546E75E1DEC890100410058 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61C37B7570CA1E664C8BD1AB /* Pods-HymansTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +680,7 @@
 		};
 		5546E7601DEC890100410058 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5A1D03B7994497A3B2DD87F /* Pods-HymansTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 3A9TH8N8KH;
@@ -483,6 +695,7 @@
 		};
 		5546E7611DEC890100410058 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF2F17708A767B9221BE72C9 /* Pods-HymansTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 3A9TH8N8KH;
@@ -514,6 +727,7 @@
 				5546E75B1DEC890100410058 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5546E75C1DEC890100410058 /* Build configuration list for PBXNativeTarget "HymansTestTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +736,7 @@
 				5546E75E1DEC890100410058 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5546E75F1DEC890100410058 /* Build configuration list for PBXNativeTarget "HymansTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +745,7 @@
 				5546E7611DEC890100410058 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
